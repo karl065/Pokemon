@@ -1,0 +1,41 @@
+.dropdown {
+  position: relative;
+  border-radius: 20px;
+  box-shadow: 0px 2px 36px -5px rgba(111, 91, 224, 0.89),
+    inset 0px 0px 10px rgba(111, 91, 224, 0.89);
+  overflow-y: auto;
+}
+
+.toggleButton {
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  box-shadow: 0px 2px 36px -5px rgba(111, 91, 224, 0.89),
+    inset 0px 0px 10px rgba(111, 91, 224, 0.89);
+  z-index: 1001;
+  overflow: auto;
+}
+
+.option {
+  position: absolute;
+  background-color: white;
+  /* padding: 10px; */
+  cursor: pointer;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,32 @@
+.containerSearch {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 36px -5px rgba(111, 91, 224, 0.89),
+    inset 0px 0px 10px rgba(111, 91, 224, 0.89);
+}
+
+.inputTeme {
+  border-radius: 20px;
+  height: 30%;
+  width: 20%;
+  padding: 5px;
+  box-shadow: 0px 2px 36px -5px rgba(111, 91, 224, 0.89),
+    inset 0px 0px 10px rgba(111, 91, 224, 0.89);
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgb(233, 0, 0);
+}
+
+.containerSearch button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.containerSearch img {
+  width: 30px;
+  height: 30px;
+}

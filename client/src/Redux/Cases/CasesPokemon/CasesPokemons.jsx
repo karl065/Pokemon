@@ -1,0 +1,2 @@
+export const GET_POKEMON_DB = 'GET_POKEMON_DB';
+export const GET_POKEMON_API = 'GET_POKEMON_API';
